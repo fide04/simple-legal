@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Correo confirmado</title>
+<link rel="icon" href="icon.png">
+<style>
+:root { --paper:#F3F5FA; --surface:#fff; --ink:#0B1020; --muted:#545E78; --rule:#E2E6EF;
+        --accent:#13857B; --gold:#FFD166; }
+@media (prefers-color-scheme: dark) {
+  :root { --paper:#0B1020; --surface:#151D35; --ink:#EEF1F8; --muted:#A3ACC6; --rule:#26304D;
+          --accent:#2EC4B6; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink);
+       font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+header { background:#0B1020; color:#fff; padding:28px 16px; }
+header .wrap { display:flex; align-items:center; gap:14px; }
+header img { width:52px; height:52px; border-radius:12px; }
+header strong { font-size:24px; display:block; }
+header span { color:var(--gold); }
+main { padding:16px; }
+.wrap { max-width:720px; margin:0 auto; }
+article { background:var(--surface); border-radius:22px; padding:8px 20px 20px; }
+h1 { font-size:28px; line-height:1.2; margin:18px 0 6px; }
+h2 { font-size:20px; margin:28px 0 6px; padding-top:16px; border-top:1px solid var(--rule); }
+p, li { color:var(--ink); }
+.muted, em { color:var(--muted); font-style:normal; }
+a { color:var(--accent); }
+footer { color:var(--muted); font-size:14px; text-align:center; padding:24px 16px 40px; }
+</style>
+</head>
+<body>
+<header><div class="wrap"><img src="icon.png" alt=""><div><strong>Simple</strong><span>Entiende lo que comes.</span></div></div></header>
+<main><div class="wrap"><article>
+<h1>Correo confirmado</h1>
+<p>Tu cuenta de Simple ya está activa.</p>
+<p>Vuelve a la app, toca <strong>Ya tengo cuenta</strong> y entra con tu correo y tu contraseña.</p>
+<p>*Your Simple account is active. Go back to the app and sign in with your email and password.*</p>
+</article></div></main>
+<footer><a href="privacidad.html">Política de privacidad</a> · <a href="eliminar-cuenta.html">Eliminar tu cuenta</a></footer>
+</body>
+</html>
